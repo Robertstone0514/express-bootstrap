@@ -3,12 +3,12 @@ const mockJokes = {
   value: [
     {
       id: 1,
-      joke: 'i am a joke',
+      joke: 'I am a joke',
       categories: [],
     },
     {
       id: 2,
-      joke: 'i am another joke',
+      joke: 'I am another joke',
       categories: [],
     },
   ],
@@ -18,7 +18,7 @@ const mockRandomJokes = {
   type: 'success',
   value: {
     id: 115,
-    joke: 'i am a random joke',
+    joke: 'I am a random joke',
     categories: [],
   },
 };
@@ -27,7 +27,7 @@ const mockPersonalJokes = {
   type: 'success',
   value: {
     id: 141,
-    joke: 'random joke about manchester codes',
+    joke: 'Random joke about manchester codes',
     categories: [],
   },
 };
