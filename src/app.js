@@ -1,8 +1,16 @@
 const express = require('express');
-const { mainController } = require('./controller');
+
+const {
+  jokesController,
+  randomJokeController,
+  personalizedJokeController,
+} = require('./controller');
 
 const app = express();
+app.use(express.static('public'));
 
-app.get('/', mainController);
+app.get('/jokes', jokesController);
+app.get('/jokes/random', randomJokeController);
+app.get('/joke/random/personal/:first/:last', personalizedJokeController);
 
 module.exports = app;
