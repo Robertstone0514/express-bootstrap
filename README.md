@@ -10,6 +10,14 @@
 
 # Description
 
+In this project I was practising with endpoints and practising with the following:
+
+- express
+- axios
+- nock
+- callback/promises
+- asynchronous javascript
+
 ## Welcoming page
 
 The website contains jokes by Chuck Norris. The entry point is http://localhost:3000.
@@ -26,14 +34,6 @@ To get a random joke - http://localhost:3000/joke/random.
 ## A personal joke
 
 Get a personalised joke by replacing the name and surname in the following URL /joke/personal/name/surname.
-
-In this project I was practising with endpoints and practising with the following:
-
-- express
-- axios
-- nock
-- callback/promises
-- asynchronous javascript
 
 ## Technologies Used
 ```
