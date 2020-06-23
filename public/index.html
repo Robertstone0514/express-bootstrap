@@ -5,29 +5,49 @@
     <link rel="stylesheet" type="text/css" href="joker.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jokes API</title>
-    <h1>Express Chuck Norris jokes</h1>
+    <h1> 🚯 Chuck Norris Jokes Using Express 🚯 </h1>
   </head>
   <body>
-    <p>
-      Welcome to the World of Chuck Norris.
-    </p>
+    <h2>
+      ❤️ Welcome to the World of Chuck Norris ❤️
+    </h2>
+    <h3>
+    Smash the buttons below to see what happens!
+    </h3><br>
+    
+    <img src="images/chck.png" align="right" height="550" width="500">
 
-    <div>
-      <h3>GET /jokes</h3>
-      <p>This will list ALL the jokes from the Chuck Norris API</p>
-    </div>
-
-    <div>
-      <h3>GET /jokes/random</h3>
-      <p>This will get a random joke from the Chuck Norris API</p>
-    </div>
-
-    <div>
-      <h3>GET /jokes/personal/FIRSTNAME/LASTNAME</h3>
-      <p>
-        This will get a personalised random joke from the Chuck Norris API, just replace FIRSTNAME
-        and LASTNAME with your chosen names
-      </p>
-    </div>
+    <div><p id='demo' class='demo'> This will list ALL the jokes from the Chuck Norris API</p>
+    <button id='btn-display-all' type='button'style="font-size : 20px;" > GET /jokes </button></div>
+    <br>
+   <div><p id='demo1' class='demo1'>This will get a random joke from the Chuck Norris API</p>
+    <button id='btn-display-random' type='button' style="font-size : 20px;" > GET /jokes/random </button></div>
+<br>
+    <div><p id='demo2' class='demo2'>This will get a personalised random joke from the Chuck Norris API, just replace FIRSTNAME
+      and LASTNAME with your chosen names</p>
+    <button id='btn-display-NameSurname' type='button' style="font-size : 20px;" > GET /jokes/personal/FIRSTNAME/LASTNAME </button>
+   </div>
+    
   </body>
+  <script>
+  const tag = document.getElementById('demo');
+  const tag1 = document.getElementById('demo1');
+  const tag2 = document.getElementById('demo2');
+  const displayAll = document.querySelector('button#btn-display-all');
+  const displayRandom = document.querySelector('button#btn-display-random');
+  const displayNameSurname = document.querySelector('button#btn-display-NameSurname')
+ 
+  displayAll.addEventListener('click', function(){
+  tag.classList.toggle('demo');
+  });
+
+  displayRandom.addEventListener('click', function(){
+  tag1.classList.toggle('demo1');
+  });
+
+  displayNameSurname.addEventListener('click', function(){
+  tag2.classList.toggle('demo2');
+  });
+
+</script>
 </html>
