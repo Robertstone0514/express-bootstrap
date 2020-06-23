@@ -10,7 +10,7 @@
 
 # Description
 
-In this project I was practising with endpoints and practising with the following:
+In this project I was practising with the following:
 
 - express
 - axios
