@@ -2,11 +2,11 @@
 
 ## Badges
 
-[![followers](https://img.shields.io/github/followers/antoniasymeonidou?label=Follow&style=social)
+![followers](https://img.shields.io/github/followers/antoniasymeonidou?label=Follow&style=social)
 
 ## Visuals
 
-[!](https://docs.google.com/drawings/d/e/2PACX-1vRjb9KDW0qMI4dA7E6_Ji6a_11YiYMAJMDlbz8LS2yIKmc5QrJVUljij05YFlUTQoYynd3IWW7bSmmG/pub?w=960&h=440)
+![image](https://docs.google.com/drawings/d/e/2PACX-1vRjb9KDW0qMI4dA7E6_Ji6a_11YiYMAJMDlbz8LS2yIKmc5QrJVUljij05YFlUTQoYynd3IWW7bSmmG/pub?w=960&h=440)
 
 # Description
 
